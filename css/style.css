@@ -60,10 +60,10 @@ body{
 .banner_heading{
     font-size: 72px;
     font-weight: 900;
-    text-shadow: 0px 0px 3px black;
-    
+    text-shadow: 0px 0px 3px black;   
 
 }
+
 /* ---- start categori section ----- */
 .categori_section{
     display: flex;
@@ -87,6 +87,7 @@ body{
 .categori_img img{
     width: 100%;
 }
+
 /* --- midnight section ----- */
 .midnight_section{
     background-image: url("../images/Vectorrr.png");
@@ -116,4 +117,126 @@ body{
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
+}
+
+/* ------ place section ------- */
+.place_section{
+    margin: 0 auto;
+    margin-bottom: 120px;
+   
+} 
+.place-contant{
+    background-image: linear-gradient(to bottom, #ff000083 , #ff000000);
+    /* width: 50%; */
+    padding: 100px 215px 110px 215px;
+    border-radius: 8px;
+}
+.place{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 48px;
+}
+.place span{
+    color: #ff0000;
+}
+.btn_primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 16px 32px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 8px;
+}
+
+/* ----- best offer section -------- */
+.best_offer{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 120px;
+ }
+ .content_offer{
+
+ }
+ .best_offer .section_title{
+    font-weight: 900;
+    margin-bottom: 20px;
+ }
+ .offer_2024 .section_title{
+    color: #ff0000;
+ }
+ .best_offer .section_description{
+    color: #07021180;
+ }
+ .offer_2024{
+    margin-top: 40px;
+ }
+ .offer_2024 .section_description{
+    margin-bottom: 40px;
+ }
+ .img_offer{
+    border: 10px solid #ff0000;
+    border-radius: 50%;
+ }
+ .img_offer img{
+    padding: 30px;
+ }
+
+ /* ---- holiday section ------ */
+ .holiday_section{
+   margin-bottom: -220px;
+ }
+ .holiday_description{
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    
+ }
+ .holiday_description .sub_title{
+    color: #070211;
+    margin-bottom: 16px;
+ }
+ .holiday_description .section_description{
+    color: #07021180;
+    text-align: center;
+    margin-bottom: 64px;
+ }
+ .holiday{
+    color: #ff0000;
+ }
+ .display_flex{
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   align-items: center;
+  
+ }
+ .bottom_ing{
+   z-index: 1;
+ }
+
+.gift_img{
+   width: 100%;
+}
+.girl_img{
+   position: relative;
+   right: -27px;
+   /* z-index: 1; */
+
+}
+.absulate_img{
+   /* position: absolute; */
+   position: relative;
+   bottom: 350px;
+   right: 130px;
+}
+.back_img img{
+   width: 100%;
+   position: relative;
+   bottom: 314px;
+    
 }
