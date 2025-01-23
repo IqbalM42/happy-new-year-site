@@ -240,3 +240,122 @@ body{
    bottom: 314px;
     
 }
+
+
+/* ----- portpolio siction ------- */
+.portpolio_section{
+    margin-bottom: 120px;
+ }
+ .portpolio_content{
+    width: 70%;
+ }
+ .portpolio_description{
+    color: #07021180;
+ }
+ .portpolio_img{
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: auto auto auto;
+ }
+ .portpolio_img img{
+    width: 100%;
+ }
+ 
+ /* ------ subscribe section ------- */
+ .subscribe_section{
+    margin-bottom: 120px;
+ }
+ .subscribe{
+    background-color: #ff00001e;
+    border-radius: 8px;
+ }
+ .subscribd_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 120px 40px 120px;
+ }
+ .subscribd_content h2{
+    margin-top: 40px;
+    margin-bottom: 22px;
+ }
+ .subscribd_content p{
+    color: #07021180;
+    text-align: center;
+ }
+ form{
+    width: 500px;
+    padding-bottom: 80px;
+    display: flex;
+    margin: 0 auto;
+ }
+ input[type="email"]{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 18px;
+    color: #07021180;
+    padding: 15px 0px 15px 30px;
+    width: 400px;
+    position: relative;
+ }
+ input[type=text]{
+    background-color: #ff0000;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 30px 15px 0px;
+    width: 100px;
+    text-align: right;
+ }
+
+ /* ------ footer section ---------- */
+
+footer{
+    background-color: #070211;
+ }
+ .footer{
+    padding: 100px 0px;
+ }
+ .footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .footer_text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+ }
+ .footer_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+ }
+ .top_left{
+    width: 40%;
+ }
+ .top_right{
+    margin-right: 70px;
+ }
+ hr{
+    opacity: .15;
+ }
+ .footer_icon{
+    padding: 48px 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+ }
+ 
+ 
+ 
